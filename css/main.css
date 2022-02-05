@@ -5,7 +5,7 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
-    font-size: 16px;
+    font-size: 1rem;
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 }
 
 .nav-link {
-     font-size: 14px !important;
+     font-size: 1rem !important;
      background: transparent !important;
      font-family: Lato, sans-serif !important;
      text-transform: capitalize !important;
@@ -27,7 +27,7 @@ html {
 
  .login-btn {
      border: 2px solid #6923ff !important;
-     font-size: 10px !important;
+     font-size: .8rem;
  }
  .login-btn:hover {
      background: #6923ff !important;
@@ -37,16 +37,16 @@ html {
 }
 
 .navbar-brand {
-    font-size: 25px !important
+    font-size: 1.5rem;
 }
 
 .navbar-toggler-icon {
-    color: #fff !important
+    color: #fff !important;
 }
 
 .btn {
     border-radius: 10px !important;
-    font-size: 16px !important;
+    font-size: 1rem;
     font-weight: 600 !important;
     text-transform: uppercase !important;
 }
@@ -70,12 +70,12 @@ html {
 .title {
     line-height: 90px !important;
     margin-bottom: -2px !important;
-    font-size: 36px !important
+    font-size: 2.25rem;
 }
 
 .subtitle {
     color: rgba(255, 255, 255, 0.685) !important;
-    font-size: 16px !important;
+    font-size: 1rem;
     font-family: 'Lato', sans-serif;
 }
 
@@ -90,13 +90,13 @@ html {
     background-repeat: no-repeat !important;
 }
 .features .title {
-    font-size: 40px !important;
+    font-size: 2.5rem;
     color: #ffffff !important;
     line-height: 70px !important;
 }
 
 .features .subtitle {
-    font-size: 20px !important;
+    font-size: 1.25rem !important;
     color: #a2a8bd;
 }
 
@@ -118,7 +118,7 @@ html {
 }
 
 .card-title {
-    font-size: 28px !important;
+    font-size: 1.75rem;
     font-weight: 600 !important;
 }
 
@@ -140,13 +140,13 @@ html {
 }
 
 .statistics .title {
-    font-size: 40px !important;
+    font-size: 2.5rem;
     color: #ffffff !important;
     line-height: 70px !important;
 }
 
 .statistics .subtitle {
-    font-size: 20px !important;
+    font-size: 1.25rem !important;
     color: #a2a8bd;
 }
 
@@ -181,6 +181,9 @@ html {
 color: rgba(255, 255, 255, 0.46) !important
 }
 
+.logobot{
+    height:150px;
+}
 .features .card-body {
     padding: 40px 40px 40px 30px !important;
 }
@@ -199,7 +202,7 @@ color: rgba(255, 255, 255, 0.46) !important
     font-family: 'Montserrat' !important;
     font-style: normal !important;
     font-weight: 600 !important;
-    font-size: 16px !important;
+    font-size: 1rem;
     line-height: 5px !important;
     letter-spacing: 0.15em !important;
     font-variant: small-caps !important;
@@ -213,4 +216,39 @@ color: rgba(255, 255, 255, 0.46) !important
 .footer .bot-footer {
     text-align: center !important;
     color: #a2a8bd !important
+}
+
+.card .feat{
+    height: 18rem;
+    widht:18rem;
+}
+
+/* adding media query to title subtitle btn*/
+
+@media screen and (max-width:680px) {
+
+    .logobot{
+        height:auto;
+
+        margin-right: 0;
+    }    
+    .title{
+        font-size: 2rem;
+    }
+    .subtitle{
+        font-size: 1rem;
+    }
+    .features .title{
+        font-size: 1.8rem;
+    }
+}
+
+/*adding media q to card-title card-text*/
+@media screen and (max-width:480px) {
+     .card-title{
+        font-size: 2rem;
+     }
+     .card-body{
+        font-size: .75rem;
+     }
 }
