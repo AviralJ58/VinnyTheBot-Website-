@@ -1,254 +1,265 @@
 body {
-    font-family: 'Poppins', sans-serif !important;
-    background-color: #1D1E28;
-    color: #fff;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    text-rendering: optimizeLegibility;
-    font-size: 1rem;
+  font-family: "Poppins", sans-serif !important;
+  background-color: #1d1e28;
+  color: #fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-size: 1rem;
 }
 
 html {
-    
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 .nav-link {
-     font-size: 1rem !important;
-     background: transparent !important;
-     font-family: Lato, sans-serif !important;
-     text-transform: capitalize !important;
- }
- .nav-link:hover {
-     background: transparent !important;
-     color: #6923ff !important;
-     font-weight: bold !important;
- }
+  font-size: 1rem !important;
+  background: transparent !important;
+  font-family: Lato, sans-serif !important;
+  text-transform: capitalize !important;
+}
+.nav-link:hover {
+  background: transparent !important;
+  color: #6923ff !important;
+  font-weight: bold !important;
+}
 
- .login-btn {
-     border: 2px solid #6923ff !important;
-     font-size: .8rem;
- }
- .login-btn:hover {
-     background: #6923ff !important;
- }
+.login-btn {
+  border: 2px solid #6923ff !important;
+  font-size: 0.8rem;
+}
+.login-btn:hover {
+  background: #6923ff !important;
+}
 .navbar {
-    box-shadow: none !important
+  box-shadow: none !important;
 }
 
 .navbar-brand {
-    font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 
 .navbar-toggler-icon {
-    color: #fff !important;
+  color: #fff !important;
 }
 
 .btn {
-    border-radius: 10px !important;
-    font-size: 1rem;
-    font-weight: 600 !important;
-    text-transform: uppercase !important;
+  border-radius: 10px !important;
+  font-size: 1rem;
+  font-weight: 600 !important;
+  text-transform: uppercase !important;
 }
 
 .btn-primary {
-    background-color: #6923ff!important
+  background-color: #6923ff !important;
 }
 
 .btn-secondary {
-    background-color: #2C2F33 !important
+  background-color: #2c2f33 !important;
 }
 .heading {
-    padding: 150px 50px !important;
-    color: #fff !important;
-    background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
-    background-position: bottom !important;
-    background-size: 300% !important;
-    background-repeat: no-repeat !important;
+  padding: 6rem 0 5rem 3rem !important;
+  color: #fff !important;
+  background-image: url("../assets/wavy-purple-by-nouridio.svg") !important;
+  background-position: bottom !important;
+  background-size: 300% !important;
+  background-repeat: no-repeat !important;
 }
 
 .title {
-    line-height: 90px !important;
-    margin-bottom: -2px !important;
-    font-size: 2.25rem;
+  margin-bottom: 0 !important;
+  font-size: 2.25rem;
 }
 
 .subtitle {
-    color: rgba(255, 255, 255, 0.685) !important;
-    font-size: 1rem;
-    font-family: 'Lato', sans-serif;
+  color: rgba(255, 255, 255, 0.685) !important;
+  padding-top: 0.1rem;
+  font-size: 1.5rem;
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
 }
-
 
 .features {
-    text-align: center !important;
-    background: #6923ff !important;
-    padding: 60px 50px !important;
-    /* background-image: url("../assets/wavy-dark-by-nouridio.svg") !important; */
-    background-position: bottom !important;
-    background-size: 200% !important;
-    background-repeat: no-repeat !important;
+  text-align: center !important;
+  background: #6923ff !important;
+  padding: 60px 50px !important;
+  /* background-image: url("../assets/wavy-dark-by-nouridio.svg") !important; */
+  background-position: bottom !important;
+  background-size: 200% !important;
+  background-repeat: no-repeat !important;
 }
 .features .title {
-    font-size: 2.5rem;
-    color: #ffffff !important;
-    line-height: 70px !important;
+  font-size: 2.5rem;
+  color: #ffffff !important;
+  line-height: 70px !important;
 }
 
 .features .subtitle {
-    font-size: 1.25rem !important;
-    color: #a2a8bd;
+  font-size: 1.25rem !important;
+  color: #a2a8bd;
 }
 
 .features .card-body {
-    text-align: left !important;
+  text-align: left !important;
 }
 
 .features .card-title {
-    margin: 0 0 -3px !important;
-    color: #ffffff;
+  margin: 0 0 -3px !important;
+  color: #ffffff;
 }
 .cards {
-    margin-top: 30px !important;
+  margin-top: 30px !important;
 }
 
 .card {
-    border-radius: 5px !important;
-    box-shadow: none !important;
+  border-radius: 5px !important;
+  box-shadow: none !important;
+  background-color: #6923ff;
 }
 
 .card-title {
-    font-size: 1.75rem;
-    font-weight: 600 !important;
+  font-size: 1.75rem;
+  font-weight: 600 !important;
 }
 
 .contributors .card-text {
-    color: #2C2F33;
+  color: white;
 }
 
 .statistics {
-    text-align: center !important;
-    padding-top: 300px !important;
+  text-align: center !important;
+  padding-top: 300px !important;
 }
 
-.statistics .card-body{
-    padding: 0 !important;
-    height: 280 !important;
-    width: 332 !important;
-    max-height: 280 !important;
-    max-width: 332 !important;
+.statistics .card-body {
+  padding: 0 !important;
+  height: 280 !important;
+  width: 332 !important;
+  max-height: 280 !important;
+  max-width: 332 !important;
 }
 
 .statistics .title {
-    font-size: 2.5rem;
-    color: #ffffff !important;
-    line-height: 70px !important;
+  font-size: 2.5rem;
+  color: #ffffff !important;
+  line-height: 70px !important;
 }
 
 .statistics .subtitle {
-    font-size: 1.25rem !important;
-    color: #a2a8bd;
+  font-size: 1.25rem !important;
+  color: #a2a8bd;
 }
 
 .card.statistic {
-    background: transparent !important;
-    box-shadow: none !important;
-    color: #f7f7f7 !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  color: #f7f7f7 !important;
 }
-
 
 .page_end {
-    background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
-    background-position: bottom !important;
-    background-size: 200% !important;
-    background-repeat: no-repeat !important;
+  background-image: url("../assets/wavy-light-by-nouridio.svg") !important;
+  background-position: bottom !important;
+  background-size: 200% !important;
+  background-repeat: no-repeat !important;
 }
 .start {
-    padding: 60px 50px !important
+  padding: 60px 50px !important;
 }
 
 .start .card {
-    background: transparent !important;
-    color: #f6f9ff !important;
+  background: transparent !important;
+  color: #f6f9ff !important;
 }
 
 .features .card {
-    background: #1D1E28;
-    border-radius: 22px !important;
-    border: 4px solid #6923ff;
+  background: #1d1e28;
+  border-radius: 22px !important;
+  border: 4px solid #6923ff;
 }
 .features .card-text {
-color: rgba(255, 255, 255, 0.46) !important
+  color: rgba(255, 255, 255, 0.46) !important;
 }
 
-.logobot{
-    height:150px;
+.logobot {
+  height: 150px;
 }
 .features .card-body {
-    padding: 40px 40px 40px 30px !important;
+  padding: 40px 40px 40px 30px !important;
 }
 
 .navbar-toggler-icon {
-    color: #fff !important
+  color: #fff !important;
 }
 .footer {
-    text-align: center !important;
-    padding: 5px 6px !important;
-    color: #ecf2ff;
-    padding: 30px 30px !important
+  text-align: center !important;
+  padding: 5px 6px !important;
+  color: #ecf2ff;
+  padding: 30px 30px !important;
 }
 
 .footer .nouridio {
-    font-family: 'Montserrat' !important;
-    font-style: normal !important;
-    font-weight: 600 !important;
-    font-size: 1rem;
-    line-height: 5px !important;
-    letter-spacing: 0.15em !important;
-    font-variant: small-caps !important;
+  font-family: "Montserrat" !important;
+  font-style: normal !important;
+  font-weight: 600 !important;
+  font-size: 1rem;
+  line-height: 5px !important;
+  letter-spacing: 0.15em !important;
+  font-variant: small-caps !important;
 }
 
 .footer .nouridio a {
-    color: #6923ff !important;
-    text-decoration: none !important;
+  color: #6923ff !important;
+  text-decoration: none !important;
 }
 
 .footer .bot-footer {
-    text-align: center !important;
-    color: #a2a8bd !important
+  text-align: center !important;
+  color: #a2a8bd !important;
 }
 
-.card .feat{
-    height: 18rem;
-    widht:18rem;
+.card .feat {
+  height: 18rem;
+  width: 18rem;
+}
+
+.footer-link {
+    padding: 1rem 1rem 0;
 }
 
 /* adding media query to title subtitle btn*/
 
-@media screen and (max-width:680px) {
+@media screen and (max-width: 680px) {
+    .heading{
+        padding:6rem 1rem 0 1rem!important;
+    }
 
-    .logobot{
-        height:auto;
-
-        margin-right: 0;
-    }    
-    .title{
-        font-size: 2rem;
-    }
-    .subtitle{
-        font-size: 1rem;
-    }
-    .features .title{
-        font-size: 1.8rem;
-    }
+    .footer-link {
+    padding: .5rem .5rem 0;
+}
+    
+  .logobot {
+      padding: 0 !important;
+    height: auto;
+    margin-right: 0;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1rem;
+  }
+  .features .title {
+    font-size: 1.8rem;
+  }
 }
 
 /*adding media q to card-title card-text*/
-@media screen and (max-width:480px) {
-     .card-title{
-        font-size: 2rem;
-     }
-     .card-body{
-        font-size: .75rem;
-     }
+@media screen and (max-width: 480px) {
+
+  .card-title {
+    font-size: 2rem;
+  }
+  .card-body {
+    font-size: 0.75rem;
+  }
 }
